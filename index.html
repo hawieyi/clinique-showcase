@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CLINIQUE · 轻盈之间</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./three.module.js","three/addons/controls/OrbitControls.js":"./OrbitControls.js","three/addons/environments/RoomEnvironment.js":"./RoomEnvironment.js"}}</script>
+</head>
+<body>
+<header><a class="brand" href="#">CLINIQUE<span>倩碧 · 产品视觉研究</span></a><a class="nav" href="#details">探索细节 <span>↗</span></a></header>
+<main>
+<section class="hero">
+<div class="intro"><p class="eyebrow"><i></i> DRAMATICALLY DIFFERENT</p><h1>把轻盈，<br>留在肌肤上<span>。</span></h1><p class="subtitle">一抹淡黄，一份纯粹。<br>从每一个角度，感受经典设计。</p><a class="explore" href="#details">探索小黄油 <span>↓</span></a><div class="edition"><span>01 /</span> MOISTURIZING GEL<br><small>卓越润肤凝胶 · 外观展示</small></div></div>
+<div class="stage"><div class="stage-word" aria-hidden="true">light.</div><div id="viewport" aria-label="可拖动旋转和缩放的三维产品展示"></div><div id="loading">正在点亮产品…</div><div class="stage-top"><span>THE ICON, IN EVERY ANGLE</span><button id="reference">原图对照 ↗</button></div><div class="stage-bottom"><span class="drag-hint">⌖ 拖动旋转 · 滚轮缩放</span><span>3D EXPERIENCE / 01</span></div></div>
+<div class="controls" role="group" aria-label="产品展示控制"><button id="front">↺ <span>正面视角</span></button><button id="rotate" aria-pressed="true">Ⅱ <span>暂停旋转</span></button><button id="cap" aria-pressed="false">↥ <span>打开瓶盖</span></button></div>
+</section>
+<section class="details" id="details"><div><p class="eyebrow">A CLOSER LOOK</p><h2>经典，藏在细节里。</h2><p class="detail-note">以参考照片为灵感的三维外观演绎</p></div><div class="detail-item"><span>01</span><h3>一眼认出的淡黄</h3><p>圆润方形瓶身，柔和的浅黄色，<br>让简洁的轮廓拥有自己的辨识度。</p></div><div class="detail-item"><span>02</span><h3>光影之间的银色</h3><p>镜面泵头与透明瓶盖相映，<br>在转动中捕捉细腻光泽。</p></div></section>
+</main><footer><span>CLINIQUE <small>VISUAL CONCEPT</small></span><p>非官方概念演示 · 模型与标签依据单张照片近似还原，不作为产品规格或功效说明。</p><a href="#">返回顶部 ↑</a></footer>
+<dialog id="photo"><div class="dialog-head"><span>产品参考图</span><button id="close" aria-label="关闭原图">✕</button></div><img src="reference.png" alt="用户提供的倩碧黄色瓶身、银色泵头与透明瓶盖产品照片"></dialog>
+<script type="module" src="app.js"></script>
+</body></html>
+
+
